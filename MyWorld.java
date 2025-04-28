@@ -10,8 +10,13 @@ public class MyWorld extends World {
     public MyWorld() {
         super(600, 400, 1);
         
+        //Create the elephant object
         Elephant elephant = new Elephant();
         addObject(elephant, 300, 200);
+        
+        //Create a label
+        Label scoreLabel = new Label(0, 80);
+        addObject(scoreLabel, 50, 50);
         
         createApple();
     }
