@@ -13,6 +13,7 @@ public class Elephant extends Actor
     }
     
     GreenfootSound elephantSound = new GreenfootSound("elephantcub.mp3");
+    GreenfootImage idle = new GreenfootImage();
     
     public void act()
     {
